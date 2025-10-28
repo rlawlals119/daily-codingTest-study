@@ -12,9 +12,7 @@ class PG_주식가격 {
                 int[] stock = stack.pop();
                 answer[stock[1]] = i - stock[1];
             }
-            if (stack.isEmpty() || (!stack.isEmpty() && stack.peek()[0] <= prices[i])) {
-                stack.push(new int[]{prices[i], i});
-            }
+            stack.push(new int[]{prices[i], i});
         }
 
         while (!stack.isEmpty()) {
