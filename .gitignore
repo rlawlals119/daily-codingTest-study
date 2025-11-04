@@ -1,0 +1,18 @@
+# macOS 자동 생성 파일
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# 빌드 결과물
+/build/
+target/
+bin/
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일
+.env
