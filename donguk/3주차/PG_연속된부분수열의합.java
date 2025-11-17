@@ -1,6 +1,6 @@
 package donguk;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class PG_연속된부분수열의합 {
     public int[] solution(int[] sequence , int k ) {
