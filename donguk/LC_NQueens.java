@@ -43,7 +43,7 @@ public class LC_NQueens {
 
         for (int i = 0; i < n; i++) {
             int x = i+col;
-            int y = i - col + (n - 1); //⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+            int y = i - col + (n - 1); //⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 
             if(check1[i] || check2[x] || check3[y]) continue;
 
