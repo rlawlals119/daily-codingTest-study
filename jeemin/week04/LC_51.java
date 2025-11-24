@@ -18,8 +18,8 @@ class LC_51 {
         for (int i = 0; i < n; i++) {
             board[0][i] = "Q";
             dfs(0, i, n, board);
-            // n == 1일때를 위한
-            if(i == n - 1) break;
+//            // n == 1일때를 위한
+//            if(i == n - 1) break;
             board[0][i] = ".";
         }
 
