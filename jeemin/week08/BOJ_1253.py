@@ -13,7 +13,7 @@ if N >= 3:
             if l >= r: break
             if nums[l] + nums[r] == nums[i]: 
                 ans += 1
-                # print(i, r, l)
+            
                 break
             elif nums[l] + nums[r] < nums[i]: l += 1
             else: r -= 1
