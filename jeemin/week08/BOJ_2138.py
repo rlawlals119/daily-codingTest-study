@@ -31,4 +31,6 @@ if light1 == goal:
 
 elif light2 == goal:
     ans = min(ans, cnt2)
+else:
+    ans = -1
 print(ans)
