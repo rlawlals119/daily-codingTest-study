@@ -30,6 +30,7 @@ public class BOJ_1987 {
         }
 
         dfs(0, 0, 1);
+        System.out.println(result);
 
     }
 
