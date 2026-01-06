@@ -82,7 +82,7 @@ public class BOJ_2206 {
         }
 
         int a = visited[N - 1][M - 1][0];
-        int b = visited[N - 1][M - 1][0];
+        int b = visited[N - 1][M - 1][1];
 
         if ( a == -1 && b == -1) System.out.println(-1);
         else if (a == -1) System.out.println(b);
