@@ -52,7 +52,7 @@ while q:
         x = dx + cur[0]
         y = dy + cur[1]
 
-        if 0 <= x < R and 0 <= y < C and maze[x][y] != '#' and time < maze[x][y] and not visited[x][y]:
+        if 0 <= x < R and 0 <= y < C and maze[x][y] != '#' and (maze[x][y] == '.' or (isinstance(maze[x][y], int) and time < maze[x][y])) and not visited[x][y]:
             visited[x][y] = True
             q.append(((x, y), time + 1))
 
